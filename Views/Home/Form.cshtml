@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Formulário";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>Preencha o formulário abaixo</p>
+
+<form action="TesteForm" method="post">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="name">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <button type="submit">Enviar</button>
+</form>
